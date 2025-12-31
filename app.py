@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return f"App is running on port {PORT}"
+    return f"App is running"
 
 @app.route("/health")
 def health():
