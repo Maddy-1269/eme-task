@@ -36,8 +36,8 @@ The goal of this project is to demonstrate:
 
 ### Why the container port and host port are different
 - Inside the container, the app listens on **port 5000**
-- On the host machine, the port is mapped as **5000 → 5000**
-- Docker allows these ports to be different (e.g., `8080:5000`) to:
+- On the host machine, the port is mapped as **8000 → 5000**
+- Docker allows these ports to be different (e.g., `8000:5000`) to:
   - Avoid host port conflicts
   - Run multiple containers using the same internal port
 - In this project, they are the same for simplicity and clarity
@@ -49,13 +49,13 @@ Docker Compose manages port mapping using the `ports` section:
 
 ```yaml
 ports:
-  - "5000:5000"
+  - "8000:5000"
 
 ## Docker Port Mapping
 
 This means:
 
-HOST:5000 → CONTAINER:5000
+HOST:8000 → CONTAINER:5000
 
 
 Docker Compose automatically:
@@ -202,9 +202,9 @@ http://localhost:5000/health
 
 https://hub.docker.com/r/manikantamaddy/eme-task
 
-Conclusion
+#Conclusion
 
-This project demonstrates a complete CI-ready containerized application, following best practices for:
+##This project demonstrates a complete CI-ready containerized application, following best practices for:
 
 Configuration management
 
