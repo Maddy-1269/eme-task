@@ -89,7 +89,7 @@ Docker Compose is used for **local development and testing**.
 > Image pushing is handled by the CI pipeline.
 
 ---
-
+```
 ## CI Pipeline (GitHub Actions)
 
 The CI pipeline is triggered **automatically on every push to the `main` branch**.
