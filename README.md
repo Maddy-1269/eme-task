@@ -184,16 +184,17 @@ This ensures:
 
 ## How to Run Locally
 
-```bash
 docker compose up --build
 
+```bash
 http://localhost:8000
 http://localhost:8000/health
 
 ```
 
+## Docker Hub Repository
+
 ```bash
-##Docker Hub Repository
 
 https://hub.docker.com/r/manikantamaddy/eme-task
 
