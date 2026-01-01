@@ -188,6 +188,8 @@ docker compose up --build
 
 ```bash
 http://localhost:8000
+```
+```bash
 http://localhost:8000/health
 
 ```
