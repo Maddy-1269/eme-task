@@ -53,10 +53,7 @@ ports:
 
 Docker Port Mapping:
 
-This means:
-
 HOST:8000 → CONTAINER:5000
-
 
 Docker Compose automatically:
 - Creates the container
