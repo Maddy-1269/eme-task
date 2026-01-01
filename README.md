@@ -51,7 +51,7 @@ Docker Compose manages port mapping using the `ports` section:
 ports:
   - "8000:5000"
 
-Docker Port Mapping
+Docker Port Mapping:
 
 This means:
 
