@@ -213,3 +213,17 @@ https://hub.docker.com/r/manikantamaddy/eme-task
 - Docker usage
 - CI automation
 - Verification and safety checks
+
+## Architecture Diagram
+
+```mermaid
+flowchart LR
+    User[User / Browser]
+    Host[Host Machine<br>Port 8000]
+    Compose[Docker Compose]
+    Container[Flask App Container<br>Port 5000]
+
+    User -->|HTTP Request| Host
+    Host -->|8000 → 5000| Compose
+    Compose --> Container
+
