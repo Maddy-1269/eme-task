@@ -187,21 +187,19 @@ This ensures:
 ```bash
 docker compose up --build
 
-http://localhost:5000
-http://localhost:5000/health
+http://localhost:8000
+http://localhost:8000/health
 
 ##Docker Hub Repository
 
 https://hub.docker.com/r/manikantamaddy/eme-task
 
-#Conclusion
+```
+## Conclusion
 
-##This project demonstrates a complete CI-ready containerized application, following best practices for:
+## This project demonstrates a complete CI-ready containerized application, following best practices for:
 
-Configuration management
-
-Docker usage
-
-CI automation
-
-Verification and safety checks
+- Configuration management
+- Docker usage
+- CI automation
+- Verification and safety checks
