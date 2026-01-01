@@ -60,22 +60,19 @@ Docker Compose automatically:
 - Applies the port mapping
 - Exposes the application on the host machine
 
+Docker Setup:
 
-## Docker Setup
-
-### Dockerfile Highlights
+Dockerfile Highlights:
 - Uses a lightweight Python base image
 - Installs Flask and Gunicorn
 - Uses Gunicorn instead of Flask’s development server
 - Binds Gunicorn to the port provided via environment variables
 
----
-
-## Docker Compose
+Docker Compose:
 
 Docker Compose is used for **local development and testing**.
 
-### Responsibilities
+Responsibilities:
 - Build the Docker image
 - Run the container
 - Inject environment variables
@@ -84,7 +81,6 @@ Docker Compose is used for **local development and testing**.
 > Docker Compose does **not** push images to Docker Hub.  
 > Image pushing is handled by the CI pipeline.
 
----
 ```
 ## CI Pipeline (GitHub Actions)
 
