@@ -60,7 +60,6 @@ Docker Compose automatically:
 - Applies the port mapping
 - Exposes the application on the host machine
 
----
 
 ## Docker Setup
 
